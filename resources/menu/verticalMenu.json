@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard"
+    },
+    {
+      "url": "/daduk",
+      "name": "Upload Daduk",
+      "icon": "menu-icon tf-icons mdi mdi-tray-arrow-up",
+      "slug": "upload-daduk"
+    },
+    {
+      "url": "pages/account-settings",
+      "name": "Account",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "pages-account-settings"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Github Repository:
+https://github.com/ekkirizki/FrontEPSS
+
+Mengubah tampilan:
+1. Dashboard
+   resources > views > dashboard > dashboards-analytics.blade.php
+
+2. Upload Daduk
+   resources > views > daduk > daduk-main.blade.php
+
+   detail:
+   resources > views > daduk > daduk-detail.blade.php
+
+3. Account
+   resources > views > pages > pages-account-settings.blade.php
+
+Mengubah route:
+   routes > web.php
