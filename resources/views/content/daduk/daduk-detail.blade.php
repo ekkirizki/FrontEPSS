@@ -4,7 +4,7 @@
 
 @section('content')
 <h6 class="py-1 mb-4">
-  <span class="text-muted fw-light"><a href="/"><i class="mdi mdi-home mdi-18px"></i></a> / Upload Daduk /</span> Details
+  <span class="text-muted fw-light"><a href="/"><i class="mdi mdi-home mdi-18px"></i></a> / <a href="/daduk">Upload Daduk</a> /</span> Details
 </h6>
 
 <div class="row">

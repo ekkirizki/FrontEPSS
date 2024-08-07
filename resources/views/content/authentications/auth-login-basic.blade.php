@@ -42,6 +42,15 @@
                 </div>
               </div>
             </div>
+            <div class="mb-3">
+              <div class="input-group form-floating form-floating-outline">
+                <select class="form-select" id="inputGroupSelect04" aria-label="Role" aria-placeholder="Role">
+                  <option value="placeholder">Role</option>
+                  <option value="1">User</option>
+                  <option value="2">Admin</option>
+                </select>
+              </div>
+            </div>
             <div class="mb-3 d-flex justify-content-between">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="remember-me">
@@ -49,21 +58,19 @@
                   Remember Me
                 </label>
               </div>
-              <a href="{{url('auth/forgot-password')}}" class="float-end mb-1">
-                <span>Forgot Password?</span>
-              </a>
             </div>
             <div class="mb-3">
               <button class="btn btn-primary d-grid w-100 text-capitalize" type="submit">Sign in</button>
             </div>
           </form>
 
-          <p class="text-center">
+          {{-- <p class="text-center">
             <span>Don't have an account?</span>
             <a href="{{url('auth/register')}}">
               <span>Sign Up</span>
             </a>
-          </p>
+          </p> --}}
+
         </div>
       </div>   
     </div>
